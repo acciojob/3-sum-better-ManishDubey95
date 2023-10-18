@@ -12,7 +12,7 @@ function threeSum(arr, target)
 							let diff = Math.abs(sum - target);
 							if(diff < initialDiff)
 							{
-								initialDiff = diff;
+								// initialDiff = diff;
 								ans = sum;
 							}
 						}
